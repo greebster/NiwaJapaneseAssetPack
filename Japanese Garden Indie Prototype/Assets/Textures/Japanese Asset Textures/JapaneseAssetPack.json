@@ -1,0 +1,222 @@
+{
+    "format": {
+        "version": "1.0"
+    },
+    "shaders": {
+        "Main shader": {
+            "parameters": {
+                "Common Parameters": {
+                    "ao_intensity": 0.75,
+                    "emissive_intensity": 1,
+                    "horizonFade": 1.2999999523162842,
+                    "nbSamples": 16
+                },
+                "Parallax Occlusion Mapping": {
+                    "maxPOMSamples": 16,
+                    "minPOMSamples": 4,
+                    "pomStrength": 1,
+                    "usePOM": false
+                }
+            },
+            "shader": "pbr-metal-rough-with-alpha-blending",
+            "shaderInstance": "Main shader"
+        }
+    },
+    "texturesets": {
+        "Arc": {
+            "shader": "Main shader"
+        },
+        "Arc Tiles": {
+            "shader": "Main shader"
+        },
+        "Bars": {
+            "shader": "Main shader"
+        },
+        "Bench Legs": {
+            "shader": "Main shader"
+        },
+        "Bench Supports": {
+            "shader": "Main shader"
+        },
+        "BenchLowerSupport": {
+            "shader": "Main shader"
+        },
+        "BenchSeat": {
+            "shader": "Main shader"
+        },
+        "Block": {
+            "shader": "Main shader"
+        },
+        "Bottom": {
+            "shader": "Main shader"
+        },
+        "Bridge": {
+            "shader": "Main shader"
+        },
+        "Door Bars": {
+            "shader": "Main shader"
+        },
+        "Door Left": {
+            "shader": "Main shader"
+        },
+        "Door Right": {
+            "shader": "Main shader"
+        },
+        "Door Slats": {
+            "shader": "Main shader"
+        },
+        "Float": {
+            "shader": "Main shader"
+        },
+        "Material _57": {
+            "shader": "Main shader"
+        },
+        "Middle": {
+            "shader": "Main shader"
+        },
+        "Outerframe": {
+            "shader": "Main shader"
+        },
+        "PagBottom": {
+            "shader": "Main shader"
+        },
+        "PagCornerRoofSupports": {
+            "shader": "Main shader"
+        },
+        "PagCornerTrimBottom": {
+            "shader": "Main shader"
+        },
+        "PagDoorBottom": {
+            "shader": "Main shader"
+        },
+        "PagDoorMidTop": {
+            "shader": "Main shader"
+        },
+        "PagDoorMidtopSlats": {
+            "shader": "Main shader"
+        },
+        "PagDoorTrim": {
+            "shader": "Main shader"
+        },
+        "PagFenceBeamLong": {
+            "shader": "Main shader"
+        },
+        "PagFenceBeamThinShort": {
+            "shader": "Main shader"
+        },
+        "PagFenceMidBeamThin": {
+            "shader": "Main shader"
+        },
+        "PagFencePostLarge": {
+            "shader": "Main shader"
+        },
+        "PagFencePostSmall": {
+            "shader": "Main shader"
+        },
+        "PagLowTilesB&M": {
+            "shader": "Main shader"
+        },
+        "PagLowTilesTop": {
+            "shader": "Main shader"
+        },
+        "PagMiddle": {
+            "shader": "Main shader"
+        },
+        "PagPillarBottom": {
+            "shader": "Main shader"
+        },
+        "PagPillarMidTop": {
+            "shader": "Main shader"
+        },
+        "PagRoofBeams": {
+            "shader": "Main shader"
+        },
+        "PagRoofCap": {
+            "shader": "Main shader"
+        },
+        "PagRoofCornerFinials": {
+            "shader": "Main shader"
+        },
+        "PagRoofCornerTiles": {
+            "shader": "Main shader"
+        },
+        "PagRoofCornerTilesTop": {
+            "shader": "Main shader"
+        },
+        "PagRoofFinial": {
+            "shader": "Main shader"
+        },
+        "PagRoofSupports": {
+            "shader": "Main shader"
+        },
+        "PagTop": {
+            "shader": "Main shader"
+        },
+        "PagTrimBottom": {
+            "shader": "Main shader"
+        },
+        "PagTrimCornersMidTop": {
+            "shader": "Main shader"
+        },
+        "PagTrimMidTop": {
+            "shader": "Main shader"
+        },
+        "PagWindowSlats": {
+            "shader": "Main shader"
+        },
+        "PagWindowTrim": {
+            "shader": "Main shader"
+        },
+        "Pillar": {
+            "shader": "Main shader"
+        },
+        "Platform": {
+            "shader": "Main shader"
+        },
+        "Spear Finial": {
+            "shader": "Main shader"
+        },
+        "Steps": {
+            "shader": "Main shader"
+        },
+        "Top": {
+            "shader": "Main shader"
+        },
+        "ToriPostSupport": {
+            "shader": "Main shader"
+        },
+        "ToriiPillar": {
+            "shader": "Main shader"
+        },
+        "ToriiPostLower": {
+            "shader": "Main shader"
+        },
+        "ToriiPostTop": {
+            "shader": "Main shader"
+        },
+        "ToroBalcony": {
+            "shader": "Main shader"
+        },
+        "ToroFencing": {
+            "shader": "Main shader"
+        },
+        "ToroLamp": {
+            "shader": "Main shader"
+        },
+        "ToroStand": {
+            "shader": "Main shader"
+        },
+        "Toropillar": {
+            "shader": "Main shader"
+        },
+        "Tunnel": {
+            "shader": "Main shader"
+        },
+        "Wave": {
+            "shader": "Main shader"
+        },
+        "Wave Tiles": {
+            "shader": "Main shader"
+        }
+    }
+}
